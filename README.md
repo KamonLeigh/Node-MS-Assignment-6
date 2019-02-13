@@ -44,6 +44,6 @@ Send **POST** request to: http://localhost:3000/hello in this format:
 
 ```
 
-Terminal should app listening multiple cores.
+Terminal should show app listening multiple cores.
 
 press ctrl + c to stop the servers
