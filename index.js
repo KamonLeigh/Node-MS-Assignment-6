@@ -9,3 +9,22 @@
  * 
  * 
  */
+
+ const server = require('./lib/server');
+
+ // Declare the app
+ const app = {};
+
+
+ app.init = () => {
+     
+    // start server
+    server.init();
+ }
+
+
+ // start app
+ app.init();
+
+
+ module.exports = app;
